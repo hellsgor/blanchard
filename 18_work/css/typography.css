@@ -1,0 +1,31 @@
+body {
+  font-family: OpenSans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 200%;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 68px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+h3-sub-heading {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
