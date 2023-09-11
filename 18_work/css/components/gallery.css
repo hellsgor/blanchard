@@ -1,0 +1,31 @@
+.gallery {
+  padding-bottom: 80px;
+  background: url("../../assets/images/gallery-background.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.gallery__title {
+  color: var(--light-text-color);
+}
+
+.gallery__wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.gallery__images {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 50px;
+}
+
+.gallery__image img {
+  width: 350px;
+}
+
+.gallery__filter {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}

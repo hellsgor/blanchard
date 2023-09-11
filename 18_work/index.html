@@ -61,6 +61,44 @@
       </p>
     </div>
   </section>
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2 class="gallery__title">Галерея</h2>
+      <div class="gallery__wrapper">
+        <div class="gallery__filter">
+          <label class="radio gallery__filter-item" for="xix-century">
+            <input id="xix-century" name="period" type="radio">
+            <span>XIX век</span>
+          </label>
+          <label class="radio gallery__filter-item" for="xx-century">
+            <input checked id="xx-century" name="period" type="radio">
+            <span>XX век</span>
+          </label>
+          <label class="radio gallery__filter-item" for="modernity">
+            <input id="modernity" name="period" type="radio">
+            <span>Современность</span>
+          </label>
+        </div>
+        <div class="gallery__images">
+          <picture class="gallery__image">
+            <source srcset="./assets/images/gallery/gallery-image-1-1x.webp 1x, ./assets/images/gallery/gallery-image-1-1x.webp 2x" type="image/webp">
+            <source srcset="./assets/images/gallery/gallery-image-1-1x.jpg 1x, ./assets/images/gallery/gallery-image-1-1x.jpg 2x" type="image/jpg">
+            <img alt="Изображение 1" src="./assets/images/gallery/gallery-image-1-1x.jpg">
+          </picture>
+          <picture class="gallery__image">
+            <source srcset="./assets/images/gallery/gallery-image-2-1x.webp 1x, ./assets/images/gallery/gallery-image-2-1x.webp 2x" type="image/webp">
+            <source srcset="./assets/images/gallery/gallery-image-2-1x.jpg 1x, ./assets/images/gallery/gallery-image-2-1x.jpg 2x" type="image/jpg">
+            <img alt="Изображение 1" src="./assets/images/gallery/gallery-image-2-1x.jpg">
+          </picture>
+          <picture class="gallery__image">
+            <source srcset="./assets/images/gallery/gallery-image-3-1x.webp 1x, ./assets/images/gallery/gallery-image-3-1x.webp 2x" type="image/webp">
+            <source srcset="./assets/images/gallery/gallery-image-3-1x.jpg 1x, ./assets/images/gallery/gallery-image-3-1x.jpg 2x" type="image/jpg">
+            <img alt="Изображение 1" src="./assets/images/gallery/gallery-image-3-1x.jpg">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 </body>
 </html>
