@@ -1,0 +1,45 @@
+.button {
+  border: 0;
+  cursor: pointer;
+  transition: color var(--func) var(--timing), background-color var(--func) var(--timing), outline-color var(--func) var(--timing);
+}
+
+.button_icon-only {
+  padding: 0;
+  outline: 4px solid transparent;
+  outline-offset: 0;
+  background-color: transparent;
+}
+
+.button_icon-only svg path,
+.button_icon-only svg rect {
+  transition: fill var(--func) var(--timing);
+  fill: var(--light-text-color);
+}
+
+.button_icon-only:focus {
+  outline-color: var(--active-dark-color);
+  background-color: var(--active-dark-color);
+}
+
+@media (hover: hover) {
+  .button_icon-only:hover {
+    outline-color: transparent;
+    background-color: transparent;
+  }
+
+  .button_icon-only:hover svg path,
+  .button_icon-only:hover svg rect {
+    fill: var(--hover-dark-color);
+  }
+}
+
+.button_icon-only:active {
+  outline-color: transparent;
+  background-color: transparent;
+}
+
+.button_icon-only:active svg path,
+.button_icon-only:active svg rect {
+  fill: var(--acent-color);
+}

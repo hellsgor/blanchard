@@ -1,2 +1,13 @@
 @import url(./typography.css);
 @import url(./variables.css);
+
+@import url(./ui-kit/text-link.css);
+@import url(./ui-kit/button.css);
+
+@import url(./components/header.css);
+
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}

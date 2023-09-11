@@ -12,7 +12,7 @@
 
   /* text colors */
   --dark-text-color: #333;
-  --lignt-text-color: #fff;
+  --light-text-color: #fff;
   --placeholder-color: #999;
   --text-link-light-active-color: var(--dark-text-color);
 
@@ -29,6 +29,10 @@
   /* input colors */
   --disabled-color: #ececec;
   --error-color: #d11616;
+
+  /* transition */
+  --func: ease-in-out;
+  --timing: .3s;
 }
 
 

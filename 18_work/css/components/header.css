@@ -1,0 +1,30 @@
+@import url(./main-menu.css);
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--dark-background-color);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  max-width: 173px;
+  margin-right: 179px;
+}
+
+.header__main-menu {
+  margin-right: auto;
+}
+
+.header__button {
+  width: 28px;
+  height: 28px;
+}
+
+

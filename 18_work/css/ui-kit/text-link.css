@@ -1,0 +1,24 @@
+.text-link {
+  outline: 6px solid transparent;
+  outline-offset: 0;
+  transition: background-color var(--func) var(--timing), color var(--func) var(--timing), outline-color var(--func) var(--timing);
+}
+
+.text-link_for-dark-bg:focus {
+  outline-color: var(--active-dark-color);
+  background-color: var(--active-dark-color);
+}
+
+@media (hover: hover) {
+  .text-link_for-dark-bg:hover {
+    outline-color: transparent;
+    background-color: transparent;
+    color: var(--hover-dark-color);
+  }
+}
+
+.text-link_for-dark-bg:active {
+  outline-color: transparent;
+  background-color: transparent;
+  color: var(--active-dark-color);
+}
