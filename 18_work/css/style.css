@@ -7,11 +7,16 @@
 
 @import url(./components/header.css);
 @import url(./components/hero.css);
+@import url(./components/about.css);
 
 
 .container {
   max-width: 1600px;
   margin: 0 auto;
+}
+
+section {
+  padding-top: 80px;
 }
 
 @media (max-width: 1024px) {
