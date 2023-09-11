@@ -1,13 +1,44 @@
 .button {
-  border: 0;
+  display: block;
+  width: fit-content;
+  outline: 2px solid transparent;
+  outline-offset: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
   cursor: pointer;
-  transition: color var(--func) var(--timing), background-color var(--func) var(--timing), outline-color var(--func) var(--timing);
+  transition: color var(--func) var(--timing), border-color var(--func) var(--timing), background-color var(--func) var(--timing), outline-color var(--func) var(--timing);
+}
+
+.button_primary {
+  padding: 17px 35px;
+  border: 3px solid var(--button-background-color);
+  border-radius: 100px;
+  background-color: var(--button-background-color);
+  color: var(--light-text-color);
+}
+
+.button_primary:focus {
+  outline-color: var(--outline-button-color);
+}
+
+@media (hover: hover) {
+  .button_primary:hover {
+    outline-color: transparent;
+    border-color: var(--hover-button-border-color);
+  }
+}
+
+.button_primary:active {
+  outline-color: transparent;
+  background-color: var(--active-button-background-color);
 }
 
 .button_icon-only {
   padding: 0;
   outline: 4px solid transparent;
   outline-offset: 0;
+  border: none;
   background-color: transparent;
 }
 
