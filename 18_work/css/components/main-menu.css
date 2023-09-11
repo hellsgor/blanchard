@@ -10,3 +10,9 @@
   line-height: normal;
   color: var(--light-text-color);
 }
+
+@media (max-width: 1024px) {
+  .main-menu {
+    justify-content: space-between;
+  }
+}

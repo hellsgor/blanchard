@@ -27,4 +27,31 @@
   height: 28px;
 }
 
+@media (max-width: 1024px) {
+  .header {
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+  }
+
+  .header__logo {
+    max-width: 188px;
+    margin: 0;
+  }
+
+  .header__logo img {
+    width: 187px;
+  }
+
+  .header__main-menu {
+    margin-right: 0;
+    order: 3;
+  }
+}
+
 
