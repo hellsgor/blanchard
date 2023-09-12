@@ -1,0 +1,21 @@
+.painter-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  --offset: 50px;
+}
+
+.painter-card__photo {
+  max-width: 750px;
+}
+
+.painter-card__text-content {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.painter-card__subtitle {
+  color: var(--placeholder-color);
+}

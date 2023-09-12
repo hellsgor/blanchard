@@ -1,0 +1,10 @@
+.catalog__description {
+  max-width: 1080px;
+  margin-bottom: 50px;
+}
+
+.catalog__painters {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
