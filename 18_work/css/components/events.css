@@ -1,0 +1,13 @@
+.events {
+  --offset: 50px;
+  --offsets: 2;
+  --evetnt-card-width: calc((100% - (var(--offset) * var(--offsets))) / (var(--offsets) + 1))
+}
+
+.events__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  column-gap: var(--offset);
+}

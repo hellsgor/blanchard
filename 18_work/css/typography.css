@@ -28,6 +28,14 @@ h3 {
 
 .h3-sub-heading {
   font-size: 12px;
-  font-weight: 400;
   line-height: normal;
+
+}
+
+.h3-sub-heading_400 {
+  font-weight: 400;
+}
+
+.h3-sub-heading_600 {
+  font-weight: 600;
 }

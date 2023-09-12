@@ -12,6 +12,8 @@
 @import url(./components/gallery.css);
 @import url(./components/catalog.css);
 @import url(./components/painter-card.css);
+@import url(./components/events.css);
+@import url(./components/event-card.css);
 
 
 .container {
