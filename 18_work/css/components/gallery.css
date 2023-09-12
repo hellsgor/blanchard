@@ -29,3 +29,7 @@
   flex-direction: column;
   row-gap: 20px;
 }
+
+.gallery__filter-item span {
+  color: var(--light-text-color);
+}
