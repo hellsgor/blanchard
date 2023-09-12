@@ -1,0 +1,29 @@
+.projects {
+  padding-bottom: 80px;
+}
+
+.projects__description {
+  max-width: 1080px;
+  margin-bottom: 30px;
+}
+
+.projects__partners-title {
+  margin-bottom: 16px;
+}
+
+.projects__partners {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 34px;
+}
+
+.projects__partner-logo {
+  /* image + (padding *2) + (border * 2) */
+  width: calc(275px + (27px * 2) + 2px);
+  padding: 27px;
+  border: 1px solid var(--card-border-color);
+}
+
+.projects__partner-logo img {
+  max-width: 275px;
+}
