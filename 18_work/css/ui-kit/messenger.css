@@ -14,10 +14,13 @@
 }
 
 .messenger_wapp {
+  padding-bottom: 2px;
   background-color: var(--wp-color);
 }
 
 .messenger_tg {
+  padding-top: 3px;
+  padding-right: 3px;
   background-color: var(--tg-color);
 }
 

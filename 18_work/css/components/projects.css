@@ -8,7 +8,7 @@
 }
 
 .projects__partners-title {
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 .projects__partners {
@@ -18,9 +18,8 @@
 }
 
 .projects__partner-logo {
-  /* image + (padding *2) + (border * 2) */
-  width: calc(275px + (27px * 2) + 2px);
-  padding: 27px;
+  width: calc(275px + (27px * 2));
+  padding: 26px;
   border: 1px solid var(--card-border-color);
 }
 

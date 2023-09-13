@@ -17,7 +17,7 @@
 
 .hero__container {
   display: flex;
-  padding-top: 246px;
+  padding-top: 166px;
   flex-direction: column;
   row-gap: 92px;
 }

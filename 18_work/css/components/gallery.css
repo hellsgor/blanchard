@@ -5,6 +5,7 @@
 }
 
 .gallery__title {
+  margin-bottom: 20px;
   color: var(--light-text-color);
 }
 
@@ -26,8 +27,9 @@
 
 .gallery__filter {
   display: flex;
+  padding-bottom: 8px;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 16px;
 }
 
 .gallery__filter-item span {

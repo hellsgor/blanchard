@@ -13,9 +13,14 @@
   display: flex;
   max-width: 800px;
   flex-direction: column;
-  row-gap: 15px;
+  row-gap: 8px;
 }
 
 .painter-card__subtitle {
+  padding-bottom: 6px;
   color: var(--placeholder-color);
+}
+
+.painter-card__description_fix {
+  padding-right: 46px;
 }

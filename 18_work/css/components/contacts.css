@@ -25,8 +25,12 @@
   column-gap: 20px;
 }
 
+.contacts__control {
+  min-width: 270px;
+}
+
 .contacts__messengers-title {
-  margin-bottom: 6px;
+  margin-bottom: 5px;
   line-height: 32px;
 }
 

@@ -14,7 +14,7 @@
 .event-card__bottom-row {
   display: flex;
   min-height: 400px;
-  padding: 13px 50px 43px;
+  padding: 13px 50px 43px 49px;
   border: 1px solid var(--card-border-color);
   border-top-width: 0;
   flex-direction: column;
@@ -22,10 +22,10 @@
 }
 
 .event-card__suptitle {
-  margin-bottom: 10px;
+  margin-bottom: 11px;
   color: var(--placeholder-color);
 }
 
 .event-card__title {
-  margin-bottom: 13px;
+  margin-bottom: 10px;
 }
