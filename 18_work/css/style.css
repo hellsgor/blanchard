@@ -7,6 +7,7 @@
 @import url(./ui-kit/radio.css);
 @import url(./ui-kit/messenger.css);
 @import url(./ui-kit/control.css);
+@import url(./ui-kit/social-link.css);
 
 @import url(./components/header.css);
 @import url(./components/hero.css);
@@ -18,6 +19,7 @@
 @import url(./components/event-card.css);
 @import url(./components/projects.css);
 @import url(./components/contacts.css);
+@import url(./components/footer.css);
 
 
 .container {
@@ -27,6 +29,10 @@
 
 section {
   padding-top: 80px;
+}
+
+.logo img {
+  max-width: 173px;
 }
 
 @media (max-width: 1024px) {

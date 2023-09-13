@@ -1,0 +1,27 @@
+.social-link {
+  width: 45px;
+  height: 45px;
+  outline: none;
+}
+
+.social-link svg path {
+  transition: fill var(--func) var(--timing);
+}
+
+.social-link svg path {
+  fill: var(--social-icon-color);
+}
+
+.social-link:focus svg path {
+  fill: var(--light-background-color);
+}
+
+@media (hover: hover) {
+  .social-link:hover svg path {
+    fill: var(--light-background-color);
+  }
+}
+
+.social-link:active svg path {
+  fill: var(--acent-color);
+}
