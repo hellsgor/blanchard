@@ -239,6 +239,30 @@
       </div>
     </div>
   </section>
+  <section class="contacts" id="contacts">
+    <div class="container contacts__container">
+      <div class="contacts__address-wrapper">
+        <h3 class="contacts__address-title">Шоурум &#8470;&nbsp;4</h3>
+        <address class="contacts__address">Леонтьевский переулок, дом 5/1</address>
+      </div>
+      <form action="https://jsonplaceholder.typicode.com/posts" class="contacts__form" id="back-call" method="POST" name="back-call">
+        <input class="control contacts__control" name="name" placeholder="Имя*" required type="text">
+        <input class="control contacts__control" minlength="11" name="phone-number" pattern="\+?[0-9\s\-\(\)]+" placeholder="Телефон*" required type="tel">
+        <button class="button button_secondary" type="submit">Заказать обратный звонок</button>
+      </form>
+      <div class="contacts__messengers-wrapper">
+        <h3 class="contacts__messengers-title">Связаться в&nbsp;один клик</h3>
+        <div class="contacts__messengers">
+          <a aria-label="Whatsapp" class="messenger messenger_wapp" href="https://www.whatsapp.com">
+            <img alt="Иконка WhatsApp" src="./assets/images/messengers/wapp.svg">
+          </a>
+          <a aria-label="Telegram" class="messenger messenger_tg" href="https://web.telegram.org">
+            <img alt="Иконка Telegram" src="./assets/images/messengers/tg.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 </body>
 </html>

@@ -1,0 +1,36 @@
+.contacts {
+  padding-top: 38px;
+  padding-bottom: 38px;
+  border-top: 1px solid var(--card-border-color);
+}
+
+.contacts__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts__address-title {
+  line-height: 32px;
+}
+
+.contacts__address {
+  font-style: normal;
+  line-height: 32px;
+}
+
+.contacts__form {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.contacts__messengers-title {
+  margin-bottom: 6px;
+  line-height: 32px;
+}
+
+.contacts__messengers {
+  display: flex;
+  column-gap: 20px;
+}

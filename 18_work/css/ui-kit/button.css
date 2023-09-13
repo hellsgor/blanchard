@@ -13,12 +13,23 @@
 .button_primary {
   padding: 17px 35px;
   border: 3px solid var(--button-background-color);
-  border-radius: 100px;
+  border-radius: var(--border-radius);
+  line-height: 30px;
   background-color: var(--button-background-color);
   color: var(--light-text-color);
 }
 
-.button_primary:focus {
+.button_secondary {
+  padding: 14px 35px;
+  border: 2px solid var(--button-background-color);
+  border-radius: var(--border-radius);
+  line-height: 100%;
+  background-color: transparent;
+  color: var(--acent-color);
+}
+
+.button_primary:focus,
+.button_secondary:focus {
   outline-color: var(--outline-button-color);
 }
 
@@ -27,12 +38,26 @@
     outline-color: transparent;
     border-color: var(--hover-button-border-color);
   }
+
+  .button_secondary:hover {
+    outline-color: transparent;
+    background-color: var(--acent-color);
+    color: var(--light-text-color);
+  }
 }
 
 .button_primary:active {
   outline-color: transparent;
   background-color: var(--active-button-background-color);
 }
+
+.button_secondary:active {
+  outline-color: transparent;
+  border: 3px solid var(--hover-button-border-color);
+  background-color: var(--active-button-background-color);
+  color: var(--light-text-color);
+}
+
 
 .button_icon-only {
   padding: 0;
@@ -76,7 +101,7 @@
 }
 
 .button_underlined {
-  padding-bottom: 3px;
+  padding: 0 0 3px;
   outline-offset: 0;
   outline-width: 8px;
   border-bottom: 1px solid var(--acent-color);

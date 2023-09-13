@@ -26,13 +26,17 @@
   --tg-color: #26a5e4;
   --wp-color: #30bf39;
 
-  /* input colors */
-  --disabled-color: #ececec;
-  --error-color: #d11616;
+  /* control colors */
+  --control-bg-hover-active-color: #ececec;
+  --control-error-color: #d11616;
+  --control-border-color: #333;
 
   /* transition */
   --func: ease-in-out;
   --timing: .3s;
+
+  /* radius */
+  --border-radius: 100px
 }
 
 

@@ -1,0 +1,37 @@
+.messenger {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  outline: 1px solid transparent;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: center;
+  transition: opacity var(--func) var(--timing), outline-color var(--func) var(--timing);
+}
+
+.messenger img {
+  max-width: 22px;
+}
+
+.messenger_wapp {
+  background-color: var(--wp-color);
+}
+
+.messenger_tg {
+  background-color: var(--tg-color);
+}
+
+.messenger:focus {
+  opacity: .5;
+}
+
+@media (hover: hover) {
+  .messenger:hover {
+    opacity: .5;
+  }
+}
+
+.messenger:active {
+  opacity: 1;
+  outline-color: var(--acent-color);
+}
