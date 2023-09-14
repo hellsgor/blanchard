@@ -2,16 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  --offset: 50px;
+  column-gap: 50px;
 }
 
 .painter-card__photo {
-  max-width: 750px;
+  flex: 0 1 750px;
 }
 
 .painter-card__text-content {
   display: flex;
-  max-width: 800px;
+  flex: 0 1 800px;
   flex-direction: column;
   row-gap: 8px;
 }
@@ -23,4 +23,25 @@
 
 .painter-card__description_fix {
   padding-right: 46px;
+}
+
+@media (max-width: 1200px) {
+  .painter-card {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .painter-card__photo {
+    width: 100%;
+    flex: unset;
+  }
+
+  .painter-card__text-content {
+    flex: unset;
+    row-gap: 9px;
+  }
+
+  .painter-card__description_fix {
+    padding-right: 0;
+  }
 }

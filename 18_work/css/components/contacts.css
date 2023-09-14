@@ -6,8 +6,11 @@
 
 .contacts__container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  row-gap: 30px;
+
 }
 
 .contacts__address-title {
@@ -37,4 +40,30 @@
 .contacts__messengers {
   display: flex;
   column-gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .contacts__form-button {
+    padding-right: 41px;
+    padding-left: 41px;
+  }
+
+  .contacts {
+    padding-top: 42px;
+    padding-bottom: 44px;
+  }
+
+  .contacts__address-title {
+    margin-bottom: 10px;
+  }
+
+  .contacts__address {
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .contacts__form {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
 }

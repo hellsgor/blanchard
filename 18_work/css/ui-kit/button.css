@@ -131,3 +131,9 @@
   border-color: var(--dark-text-color);
   color: var(--dark-text-color);
 }
+
+@media (max-width: 1024px) {
+  .button_underlined {
+    padding-bottom: 5px;
+  }
+}

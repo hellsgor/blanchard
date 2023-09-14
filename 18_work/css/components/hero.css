@@ -1,7 +1,7 @@
 .hero {
   position: relative;
-  /* padding-top: 100px; */
-  min-height: 800px;
+  min-height: var(--image-height);
+  --image-height: 800px;
 }
 
 .hero__image {
@@ -13,6 +13,10 @@
   z-index: -1;
   width: 100%;
   height: auto;
+}
+
+.hero__image img {
+  min-height: var(--image-height);
 }
 
 .hero__container {
@@ -39,4 +43,23 @@
   font-weight: 700;
   line-height: 30px;
   color: var(--light-text-color);
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    --image-height: 768px;
+  }
+
+  .hero__container {
+    padding-top: 168px;
+    row-gap: 133px;
+  }
+
+  .hero__image {
+    top: 0;
+  }
+
+  .hero__description {
+    max-width: 656px;
+  }
 }

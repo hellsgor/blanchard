@@ -26,3 +26,17 @@
 .projects__partner-logo img {
   max-width: 275px;
 }
+
+@media (max-width: 1024px) {
+  .projects__description {
+    margin-bottom: 19px;
+  }
+
+  .projects__partners-title {
+    margin-bottom: 16px;
+  }
+
+  .projects__partners {
+    column-gap: 27px;
+  }
+}

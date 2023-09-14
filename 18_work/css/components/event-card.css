@@ -1,22 +1,25 @@
 .event-card {
+  display: flex;
   width: var(--evetnt-card-width);
+  flex-direction: column;
 }
 
 .event-card__image {
   display: flex;
   overflow: hidden;
   width: 100%;
-  height: 300px;
+  height: fit-content;
   align-items: center;
   justify-content: center;
 }
 
 .event-card__bottom-row {
   display: flex;
-  min-height: 400px;
+  height: 100%;
   padding: 13px 50px 43px 49px;
   border: 1px solid var(--card-border-color);
   border-top-width: 0;
+  flex: 1 0 400px;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -28,4 +31,28 @@
 
 .event-card__title {
   margin-bottom: 10px;
+}
+
+@media (max-width: 1440px) {
+  .event-card__bottom-row {
+    flex: 1 0 483px;
+    row-gap: 22px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .event-card__bottom-row {
+    padding-right: 34px;
+    padding-bottom: 50px;
+    padding-left: 33px;
+  }
+
+  .event-card__suptitle {
+    margin-bottom: 3px;
+    text-align: right;
+  }
+
+  .event-card__title {
+    margin-bottom: 7px;
+  }
 }

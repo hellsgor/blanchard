@@ -11,3 +11,9 @@
   justify-content: space-between;
   column-gap: var(--offset);
 }
+
+@media (max-width: 1440px) {
+  .events {
+    --offset: 27px;
+  }
+}

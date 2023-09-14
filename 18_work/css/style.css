@@ -23,20 +23,12 @@
 
 
 .container {
-  max-width: 1600px;
+  max-width: 1700px;
+  padding-right: 50px;
+  padding-left: 50px;
   margin: 0 auto;
 }
 
 section {
   padding-top: 80px;
-}
-
-.logo img {
-  max-width: 173px;
-}
-
-@media (max-width: 1024px) {
-  .container {
-    max-width: 924px;
-  }
 }

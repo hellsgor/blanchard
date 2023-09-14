@@ -1,7 +1,13 @@
 .social-link {
-  width: 45px;
-  height: 45px;
+  width: var(--social-link-width-height);
+  height: var(--social-link-width-height);
   outline: none;
+  --social-link-width-height: 45px;
+}
+
+.social-link svg {
+  width: var(--social-link-width-height);
+  height: var(--social-link-width-height);
 }
 
 .social-link svg path {
@@ -24,4 +30,10 @@
 
 .social-link:active svg path {
   fill: var(--acent-color);
+}
+
+@media (max-width: 1024px) {
+  .social-link {
+    --social-link-width-height: 60px;
+  }
 }
