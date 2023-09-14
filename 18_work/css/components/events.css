@@ -17,3 +17,10 @@
     --offset: 27px;
   }
 }
+
+@media (max-width: 768px) {
+  .events__wrapper {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

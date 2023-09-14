@@ -13,11 +13,14 @@
   display: flex;
   flex: 0 1 800px;
   flex-direction: column;
-  row-gap: 8px;
+}
+
+.painter-card__title {
+  margin-bottom: 8px;
 }
 
 .painter-card__subtitle {
-  padding-bottom: 6px;
+  margin-bottom: 14px;
   color: var(--placeholder-color);
 }
 
@@ -25,7 +28,13 @@
   padding-right: 46px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
+  .painter-card {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1024px) {
   .painter-card {
     flex-direction: column;
     row-gap: 30px;
@@ -38,10 +47,19 @@
 
   .painter-card__text-content {
     flex: unset;
-    row-gap: 9px;
+  }
+
+  .painter-card__subtitle {
+    margin-bottom: 16px;
   }
 
   .painter-card__description_fix {
     padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .painter-card__subtitle {
+    margin-bottom: 6px;
   }
 }

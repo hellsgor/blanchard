@@ -13,13 +13,12 @@
 
 .projects__partners {
   display: flex;
-  flex-wrap: wrap;
   column-gap: 34px;
 }
 
 .projects__partner-logo {
   width: calc(275px + (27px * 2));
-  padding: 26px;
+  padding: 26px 27px;
   border: 1px solid var(--card-border-color);
 }
 
@@ -33,10 +32,30 @@
   }
 
   .projects__partners-title {
-    margin-bottom: 16px;
+    margin-bottom: 17px;
   }
 
   .projects__partners {
     column-gap: 27px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects__description {
+    margin-bottom: 26px;
+  }
+
+  .projects__partners-title {
+    margin-bottom: 29px;
+  }
+
+  .projects__partners {
+    justify-content: space-between;
+    row-gap: 12px;
+  }
+
+  .projects__partner-logo {
+    width: calc(265px + (26px * 2));
+    padding: 26px 20px;
   }
 }

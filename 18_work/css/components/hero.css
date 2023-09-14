@@ -11,12 +11,13 @@
   bottom: 0;
   left: 0;
   z-index: -1;
-  width: 100%;
-  height: auto;
+  overflow-x: hidden;
+  height: var(--image-height);
 }
 
 .hero__image img {
   min-height: var(--image-height);
+  object-fit: cover;
 }
 
 .hero__container {
@@ -47,7 +48,8 @@
 
 @media (max-width: 1024px) {
   .hero {
-    --image-height: 768px;
+    margin-bottom: 101px;
+    --image-height: 621px;
   }
 
   .hero__container {
@@ -56,10 +58,26 @@
   }
 
   .hero__image {
-    top: 0;
+    top: 147px;
   }
 
   .hero__description {
     max-width: 656px;
   }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: 85px;
+  }
+
+  .hero__container {
+    padding-top: 154px;
+    row-gap: 132px;
+  }
+
+  .hero__description {
+    max-width: 556px;
+  }
+
 }
