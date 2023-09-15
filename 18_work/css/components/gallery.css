@@ -68,3 +68,27 @@
     background-image: url("../../assets/images/gallery-background/gallery-background-768.jpg");
   }
 }
+
+@media (max-width: 576px) {
+  .gallery {
+    padding-bottom: 50px;
+    background-image: url("../../assets/images/gallery-background/gallery-background-320.jpg");
+  }
+
+  .gallery__title {
+    margin-bottom: 20px;
+  }
+
+  .gallery__filter {
+    row-gap: 16px;
+  }
+
+  .gallery__images {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .gallery__image img {
+    width: 100%;
+  }
+}

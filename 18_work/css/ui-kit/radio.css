@@ -81,4 +81,10 @@
   transform: scale(100%);
 }
 
+@media (max-width: 576px) {
+  .radio span::after {
+    top: 5px;
+  }
+}
+
 
