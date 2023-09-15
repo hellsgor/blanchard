@@ -14,3 +14,17 @@
     margin-bottom: 41px;
   }
 }
+
+@media (max-width: 576px) {
+  .catalog__title {
+    margin-bottom: 13px;
+  }
+
+  .catalog__description {
+    margin-bottom: 29px;
+  }
+
+  .catalog__painters {
+    row-gap: 30px;
+  }
+}

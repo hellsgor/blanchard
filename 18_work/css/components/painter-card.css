@@ -63,3 +63,13 @@
     margin-bottom: 6px;
   }
 }
+
+@media (max-width: 576px) {
+  .painter-card {
+    row-gap: 19px;
+  }
+
+  .painter-card__subtitle {
+    margin-bottom: 12px;
+  }
+}
