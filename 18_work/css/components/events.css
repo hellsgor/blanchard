@@ -24,3 +24,13 @@
     row-gap: 30px;
   }
 }
+
+@media (max-width: 576px) {
+  .events__title {
+    margin-bottom: 12px;
+  }
+
+  .events__wrapper {
+    row-gap: 20px;
+  }
+}
