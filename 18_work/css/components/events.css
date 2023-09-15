@@ -1,7 +1,9 @@
 .events {
+  padding-bottom: 1px;
+  background-color: var(--light-background-color);
   --offset: 50px;
   --offsets: 2;
-  --evetnt-card-width: calc((100% - (var(--offset) * var(--offsets))) / (var(--offsets) + 1))
+  --evetnt-card-width: calc((100% - (var(--offset) * var(--offsets))) / (var(--offsets) + 1));
 }
 
 .events__wrapper {

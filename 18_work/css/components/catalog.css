@@ -1,3 +1,7 @@
+.catalog {
+  background-color: var(--light-background-color);
+}
+
 .catalog__description {
   max-width: 1080px;
   margin-bottom: 39px;

@@ -1,5 +1,6 @@
 .projects {
   padding-bottom: 80px;
+  background-color: var(--light-background-color);
 }
 
 .projects__description {

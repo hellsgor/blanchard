@@ -21,6 +21,9 @@
 @import url(./components/contacts.css);
 @import url(./components/footer.css);
 
+body {
+  background-color: var(--dark-background-color);
+}
 
 .container {
   max-width: 1700px;
