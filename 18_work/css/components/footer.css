@@ -22,3 +22,19 @@
     padding-bottom: 40px;
   }
 }
+
+@media (max-width: 480px) {
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+
+  .footer__logo {
+    max-width: 97px;
+  }
+}

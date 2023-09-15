@@ -37,3 +37,9 @@
     --social-link-width-height: 60px;
   }
 }
+
+@media (max-width: 480px) {
+  .social-link {
+    --social-link-width-height: 50px;
+  }
+}
