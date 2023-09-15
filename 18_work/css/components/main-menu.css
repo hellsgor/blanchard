@@ -1,7 +1,8 @@
 .main-menu {
   display: flex;
   align-items: baseline;
-  column-gap: 96px;
+  column-gap: var(--main-menu-items-gap);
+  --main-menu-items-gap: 96px;
 }
 
 .main-menu__link {
@@ -20,12 +21,20 @@
 @media (max-width: 1024px) {
   .main-menu {
     overflow-x: scroll;
-    column-gap: 44px;
+    --main-menu-items-gap: 44px;
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
 
   .main-menu::-webkit-scrollbar {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-menu {
+    padding-right: var(--container-padding);
+    flex: 1 0 calc(100% + var(--container-padding));
+    justify-content: flex-start;
   }
 }

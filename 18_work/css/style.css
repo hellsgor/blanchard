@@ -24,9 +24,10 @@
 
 .container {
   max-width: 1700px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: var(--container-padding);
+  padding-left: var(--container-padding);
   margin: 0 auto;
+  --container-padding: 50px;
 }
 
 section {
