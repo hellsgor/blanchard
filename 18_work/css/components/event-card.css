@@ -26,7 +26,9 @@
 }
 
 .event-card__suptitle {
+  display: flex;
   margin-bottom: 11px;
+  flex-direction: column;
   color: var(--placeholder-color);
 }
 

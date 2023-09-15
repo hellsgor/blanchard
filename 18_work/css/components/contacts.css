@@ -14,12 +14,15 @@
   row-gap: 30px;
 }
 
+.contacts__address-wrapper {
+  font-style: normal;
+}
+
 .contacts__address-title {
   line-height: 32px;
 }
 
 .contacts__address {
-  font-style: normal;
   line-height: 32px;
 }
 

@@ -41,6 +41,11 @@ section {
   padding-top: 80px;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 @media (max-width: 576px) {
   .container {
     --container-padding: 15px;
