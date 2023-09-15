@@ -83,7 +83,7 @@
 
 @media (max-width: 576px) {
   .radio span::after {
-    top: 5px;
+    top: 6px;
   }
 }
 
