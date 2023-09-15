@@ -41,6 +41,10 @@
   column-gap: 20px;
 }
 
+.contacts__form-button_small {
+  display: none;
+}
+
 @media (max-width: 1440px) {
   .contacts__container {
     column-gap: 30px;
