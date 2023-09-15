@@ -59,3 +59,36 @@
     padding: 26px 20px;
   }
 }
+
+@media (max-width: 576px) {
+  .projects {
+    padding-bottom: 0;
+  }
+
+  .projects__title {
+    margin-bottom: 12px;
+  }
+
+  .projects__description {
+    margin-bottom: 20px;
+  }
+
+  .projects__partners-title {
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .projects__partners {
+    flex-direction: column;
+    align-items: center;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .projects__partner-logo {
+    width: 100%;
+    padding: 29px 63px;
+  }
+}
