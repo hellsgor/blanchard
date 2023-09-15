@@ -142,3 +142,13 @@
     padding-bottom: 5px;
   }
 }
+
+@media (max-width: 576px) {
+  .button {
+    font-size: 12px;
+  }
+
+  .button_primary {
+    padding: 2px 13px 2px 16px;
+  }
+}

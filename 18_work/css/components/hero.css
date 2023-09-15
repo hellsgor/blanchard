@@ -79,5 +79,40 @@
   .hero__description {
     max-width: 556px;
   }
+}
 
+@media (max-width: 576px) {
+  .hero {
+    padding-top: 80px;
+    margin-bottom: 0;
+    --image-height: 388px;
+  }
+
+  .hero__image {
+    top: 0;
+  }
+
+  .hero__container {
+    padding-top: 48px;
+    align-items: center;
+    row-gap: 36px;
+  }
+
+  .hero__text-content {
+    align-items: center;
+    row-gap: 10px;
+  }
+
+  .hero__title {
+    max-width: 290px;
+    text-align: center;
+  }
+
+  .hero__description {
+    max-width: 264px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+  }
 }

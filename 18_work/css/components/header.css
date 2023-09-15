@@ -72,3 +72,24 @@
     width: var(--logo-width);
   }
 }
+
+@media (max-width: 576px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 12px;
+  }
+
+  .header__container {
+    row-gap: 12px;
+  }
+
+  .header__logo {
+    --logo-width: 97px;
+  }
+
+  .header__button {
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+  }
+}

@@ -38,3 +38,15 @@
     justify-content: flex-start;
   }
 }
+
+@media (max-width: 576px) {
+  .main-menu {
+    justify-content: space-between;
+    column-gap: 25px;
+  }
+
+  .main-menu__link {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
