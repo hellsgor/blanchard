@@ -152,6 +152,11 @@
     padding: 2px 13px 2px 16px;
   }
 
+  .button_secondary {
+    --button-secondary-vertical-padding: 12px;
+    --button-secondary-gorizontal-padding: 33px;
+  }
+
   .button_underlined {
     font-size: 16px;
   }

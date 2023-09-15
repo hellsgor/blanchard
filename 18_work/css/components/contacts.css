@@ -89,3 +89,45 @@
     padding-left: 28px;
   }
 }
+
+@media (max-width: 576px) {
+  .contacts {
+    padding-top: 49px;
+    padding-bottom: 50px;
+    border-top: none;
+  }
+
+  .contacts__address-title {
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .contacts__container {
+    row-gap: 20px;
+  }
+
+  .contacts__form {
+    row-gap: 20px;
+  }
+
+  .contacts__control {
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .contacts__form-button_big {
+    display: none;
+  }
+
+  .contacts__form-button_small {
+    display: block;
+  }
+
+  .contacts__messengers-title {
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
