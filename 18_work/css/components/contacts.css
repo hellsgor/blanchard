@@ -3,6 +3,7 @@
   padding-bottom: 38px;
   border-top: 1px solid var(--card-border-color);
   background-color: var(--light-background-color);
+  scroll-margin-top: var(--scroll-margin-top-for-header-fixed);
 }
 
 .contacts__container {

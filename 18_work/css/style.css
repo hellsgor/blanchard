@@ -21,6 +21,10 @@
 @import url(./components/contacts.css);
 @import url(./components/footer.css);
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--dark-background-color);
 }

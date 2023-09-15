@@ -1,6 +1,7 @@
 .projects {
   padding-bottom: 80px;
   background-color: var(--light-background-color);
+  scroll-margin-top: var(--scroll-margin-top-for-header-fixed);
 }
 
 .projects__description {

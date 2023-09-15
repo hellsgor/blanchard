@@ -1,6 +1,7 @@
 .about {
   padding-bottom: 70px;
   background-color: var(--light-background-color);
+  scroll-margin-top: var(--scroll-margin-top-for-header-fixed);
 }
 
 .about__text {

@@ -37,7 +37,18 @@
   --timing: .3s;
 
   /* radius */
-  --border-radius: 100px
+  --border-radius: 100px;
+
+  /* scroll */
+  --scroll-margin-top-for-header-fixed: 100px;
+
+  @media (max-width: 1440px) {
+    --scroll-margin-top-for-header-fixed: 148px
+  }
+
+  @media (max-width: 576px) {
+    --scroll-margin-top-for-header-fixed: 79px;
+  }
 }
 
 
