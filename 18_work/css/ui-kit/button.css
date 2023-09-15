@@ -20,12 +20,14 @@
 }
 
 .button_secondary {
-  padding: 14px 35px;
+  padding: var(--button-secondary-vertical-padding) var(--button-secondary-gorizontal-padding);
   border: 2px solid var(--button-background-color);
   border-radius: var(--border-radius);
   line-height: 100%;
   background-color: transparent;
   color: var(--acent-color);
+  --button-secondary-vertical-padding: 14px;
+  --button-secondary-gorizontal-padding: 35px;
 }
 
 .button_primary:focus,
@@ -53,9 +55,12 @@
 
 .button_secondary:active {
   outline-color: transparent;
-  border: 3px solid var(--hover-button-border-color);
+  border-width: 3px;
+  border-color: var(--hover-button-border-color);
   background-color: var(--active-button-background-color);
   color: var(--light-text-color);
+  --button-secondary-vertical-padding: 13px;
+  --button-secondary-gorizontal-padding: 34px;
 }
 
 
