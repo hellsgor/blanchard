@@ -43,6 +43,10 @@
 }
 
 @media (max-width: 768px) {
+  .projects__title {
+    margin-bottom: 15px;
+  }
+
   .projects__description {
     margin-bottom: 26px;
   }

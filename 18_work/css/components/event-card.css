@@ -62,11 +62,11 @@
   }
 
   .event-card__bottom-row {
-    flex: 1 0 328px
+    flex: 1 0 329px
   }
 
   .event-card__title {
-    margin-bottom: 13px;
+    margin-bottom: 14px;
   }
 }
 

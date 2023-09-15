@@ -25,10 +25,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: var(--dark-background-color);
-}
-
 .container {
   max-width: 1700px;
   padding-right: var(--container-padding);
