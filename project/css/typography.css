@@ -1,0 +1,60 @@
+body {
+  font-family: OpenSans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 200%;
+  color: var(--dark-text-color);
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 68px;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3,
+.heading-3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.h3-sub-heading {
+  font-size: 12px;
+  line-height: normal;
+
+}
+
+.h3-sub-heading_400 {
+  font-weight: 400;
+}
+
+.h3-sub-heading_600 {
+  font-weight: 600;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 32px;
+    line-height: 28px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}

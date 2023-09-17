@@ -1,0 +1,140 @@
+.contacts {
+  padding-top: 38px;
+  padding-bottom: 38px;
+  border-top: 1px solid var(--card-border-color);
+  background-color: var(--light-background-color);
+  scroll-margin-top: var(--scroll-margin-top-for-header-fixed);
+}
+
+.contacts__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.contacts__address-wrapper {
+  font-style: normal;
+}
+
+.contacts__address-title {
+  line-height: 32px;
+}
+
+.contacts__address {
+  line-height: 32px;
+}
+
+.contacts__form {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.contacts__control {
+  min-width: 270px;
+}
+
+.contacts__messengers-title {
+  margin-bottom: 5px;
+  line-height: 32px;
+}
+
+.contacts__messengers {
+  display: flex;
+  column-gap: 20px;
+}
+
+.contacts__form-button_small {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .contacts__container {
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contacts__form-button {
+    padding-right: 41px;
+    padding-left: 41px;
+  }
+
+  .contacts {
+    padding-top: 42px;
+    padding-bottom: 44px;
+  }
+
+  .contacts__address-title {
+    margin-bottom: 10px;
+  }
+
+  .contacts__address {
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .contacts__form {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts__control {
+    min-width: calc((100% - (var(--controls-indent-width) * var(--controls-indents))) / (var(--controls-indents) + 1));
+    --controls-indents: 1;
+    --controls-indent-width: 20px;
+  }
+
+  .contacts__form-button {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contacts {
+    padding-top: 49px;
+    padding-bottom: 50px;
+    border-top: none;
+  }
+
+  .contacts__address-title {
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: normal;
+  }
+
+  .contacts__container {
+    row-gap: 20px;
+  }
+
+  .contacts__form {
+    row-gap: 20px;
+  }
+
+  .contacts__control {
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .contacts__form-button_big {
+    display: none;
+  }
+
+  .contacts__form-button_small {
+    display: block;
+    padding-right: 33px;
+    padding-left: 33px;
+  }
+
+  .contacts__messengers-title {
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

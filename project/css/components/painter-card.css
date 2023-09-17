@@ -1,0 +1,75 @@
+.painter-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+
+.painter-card__photo {
+  flex: 0 1 750px;
+}
+
+.painter-card__text-content {
+  display: flex;
+  flex: 0 1 800px;
+  flex-direction: column;
+}
+
+.painter-card__title {
+  margin-bottom: 8px;
+}
+
+.painter-card__subtitle {
+  margin-bottom: 14px;
+  color: var(--placeholder-color);
+}
+
+.painter-card__description_fix {
+  padding-right: 46px;
+}
+
+@media (max-width: 1440px) {
+  .painter-card {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1024px) {
+  .painter-card {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .painter-card__photo {
+    width: 100%;
+    flex: unset;
+  }
+
+  .painter-card__text-content {
+    flex: unset;
+  }
+
+  .painter-card__subtitle {
+    margin-bottom: 16px;
+  }
+
+  .painter-card__description_fix {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .painter-card__subtitle {
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .painter-card {
+    row-gap: 19px;
+  }
+
+  .painter-card__subtitle {
+    margin-bottom: 12px;
+  }
+}

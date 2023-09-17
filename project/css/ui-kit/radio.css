@@ -1,0 +1,90 @@
+.radio {
+  outline: none;
+  cursor: pointer;
+}
+
+.radio input {
+  position: absolute;
+  z-index: -10000;
+  visibility: hidden;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.radio span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  line-height: 100%;
+  transition: color var(--func) var(--timing);
+}
+
+.radio span::before {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--light-background-color);
+  background-color: transparent;
+  content: '';
+  transition: border-color var(--func) var(--timing), color var(--func) var(--timing);
+}
+
+.radio span::after {
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  display: block;
+  opacity: 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 100px;
+  background-color: var(--hover-dark-color);
+  content: '';
+  transform: scale(0%);
+  transition: transform var(--func) var(--timing), opacity var(--func) var(--timing);
+}
+
+.radio:focus-within span {
+  color: var(--hover-dark-color);
+}
+
+.radio:focus-within span::before {
+  border-color: var(--hover-dark-color);
+}
+
+@media (hover: hover) {
+  .radio:hover span::before {
+    border-color: var(--hover-dark-color);
+  }
+}
+
+.radio:active span {
+  color: var(--active-dark-color);
+}
+
+.radio:active span::before {
+  border-color: var(--active-dark-color);
+}
+
+.radio:active span::after {
+  background-color: var(--active-dark-color);
+}
+
+.radio input[type="radio"]:checked + span::before {
+  border-color: var(--hover-dark-color);
+}
+
+.radio input[type="radio"]:checked + span::after {
+  opacity: 1;
+  transform: scale(100%);
+}
+
+@media (max-width: 576px) {
+  .radio span::after {
+    top: 6px;
+  }
+}
+
+

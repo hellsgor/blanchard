@@ -1,0 +1,45 @@
+.social-link {
+  width: var(--social-link-width-height);
+  height: var(--social-link-width-height);
+  outline: none;
+  --social-link-width-height: 45px;
+}
+
+.social-link svg {
+  width: var(--social-link-width-height);
+  height: var(--social-link-width-height);
+}
+
+.social-link svg path {
+  transition: fill var(--func) var(--timing);
+}
+
+.social-link svg path {
+  fill: var(--social-icon-color);
+}
+
+.social-link:focus svg path {
+  fill: var(--light-background-color);
+}
+
+@media (hover: hover) {
+  .social-link:hover svg path {
+    fill: var(--light-background-color);
+  }
+}
+
+.social-link:active svg path {
+  fill: var(--acent-color);
+}
+
+@media (max-width: 1024px) {
+  .social-link {
+    --social-link-width-height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-link {
+    --social-link-width-height: 50px;
+  }
+}

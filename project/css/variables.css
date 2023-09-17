@@ -1,0 +1,54 @@
+:root {
+  /* colors */
+  --dark-background-color: #000;
+  --light-background-color: #fff;
+  --card-border-color: #cacaca;
+  --social-icon-color: #cacaca;
+
+  /* accent colors */
+  --acent-color: #9d5cd0;
+  --hover-dark-color: #c283f3;
+  --active-dark-color: #7943a4;
+
+
+  /* text colors */
+  --dark-text-color: #333;
+  --light-text-color: #fff;
+  --placeholder-color: #999;
+  --text-link-light-active-color: var(--dark-text-color);
+
+  /* button color */
+  --button-background-color: var(--acent-color);
+  --hover-button-border-color: #d1a9f0;
+  --outline-button-color: var(--hover-dark-color);
+  --active-button-background-color: var(--active-dark-color);
+
+  /* social colors */
+  --tg-color: #26a5e4;
+  --wp-color: #30bf39;
+
+  /* control colors */
+  --control-bg-hover-active-color: #ececec;
+  --control-error-color: #d11616;
+  --control-border-color: #333;
+
+  /* transition */
+  --func: ease-in-out;
+  --timing: .3s;
+
+  /* radius */
+  --border-radius: 100px;
+
+  /* scroll */
+  --scroll-margin-top-for-header-fixed: 100px;
+
+  @media (max-width: 1440px) {
+    --scroll-margin-top-for-header-fixed: 148px
+  }
+
+  @media (max-width: 576px) {
+    --scroll-margin-top-for-header-fixed: 79px;
+  }
+}
+
+

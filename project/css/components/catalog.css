@@ -1,0 +1,35 @@
+.catalog {
+  background-color: var(--light-background-color);
+  scroll-margin-top: var(--scroll-margin-top-for-header-fixed);
+}
+
+.catalog__description {
+  max-width: 1080px;
+  margin-bottom: 39px;
+}
+
+.catalog__painters {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .catalog__description {
+    margin-bottom: 41px;
+  }
+}
+
+@media (max-width: 576px) {
+  .catalog__title {
+    margin-bottom: 13px;
+  }
+
+  .catalog__description {
+    margin-bottom: 29px;
+  }
+
+  .catalog__painters {
+    row-gap: 30px;
+  }
+}

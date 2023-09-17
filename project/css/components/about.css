@@ -1,0 +1,24 @@
+.about {
+  padding-bottom: 70px;
+  background-color: var(--light-background-color);
+  scroll-margin-top: var(--scroll-margin-top-for-header-fixed);
+}
+
+.about__text {
+  max-width: 1072px;
+}
+
+@media (max-width: 576px) {
+  .about {
+    padding-bottom: 41px;
+  }
+
+  .about__title {
+    margin-bottom: 12px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 200%;
+  }
+}

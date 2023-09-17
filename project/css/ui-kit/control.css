@@ -1,0 +1,27 @@
+.control {
+  position: relative;
+  padding: 8px 24px;
+  outline: none;
+  border: 1px solid var(--control-border-color);
+  border-radius: var(--border-radius);
+  line-height: 32px;
+  transition: background-color var(--func) var(--timing), border-color var(--func) var(--timing);
+}
+
+.control:focus {
+  background-color: var(--control-bg-hover-active-color);
+}
+
+@media (hover: hover) {
+  .control:hover {
+    background-color: var(--control-bg-hover-active-color);
+  }
+}
+
+.control:invalid {
+  border-color: var(--control-error-color);
+}
+
+.control:invalid:placeholder-shown {
+  border-color: var(--control-border-color);
+}
