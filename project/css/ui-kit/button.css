@@ -36,24 +36,24 @@
 }
 
 @media (hover: hover) {
-  .button_primary:hover {
+  .button_primary:hover:not(:focus) {
     outline-color: transparent;
     border-color: var(--hover-button-border-color);
   }
 
-  .button_secondary:hover {
+  .button_secondary:hover:not(:focus) {
     outline-color: transparent;
     background-color: var(--acent-color);
     color: var(--light-text-color);
   }
 }
 
-.button_primary:active {
+.button_primary:active:not(:focus) {
   outline-color: transparent;
   background-color: var(--active-button-background-color);
 }
 
-.button_secondary:active {
+.button_secondary:active:not(:focus) {
   outline-color: transparent;
   border-width: 3px;
   border-color: var(--hover-button-border-color);
@@ -84,24 +84,24 @@
 }
 
 @media (hover: hover) {
-  .button_icon-only:hover {
+  .button_icon-only:hover:not(:focus) {
     outline-color: transparent;
     background-color: transparent;
   }
 
-  .button_icon-only:hover svg path,
-  .button_icon-only:hover svg rect {
+  .button_icon-only:hover:not(:focus) svg path,
+  .button_icon-only:hover:not(:focus) svg rect {
     fill: var(--hover-dark-color);
   }
 }
 
-.button_icon-only:active {
+.button_icon-only:active:not(:focus) {
   outline-color: transparent;
   background-color: transparent;
 }
 
-.button_icon-only:active svg path,
-.button_icon-only:active svg rect {
+.button_icon-only:active:not(:focus) svg path,
+.button_icon-only:active:not(:focus) svg rect {
   fill: var(--acent-color);
 }
 
@@ -124,7 +124,7 @@
 }
 
 @media (hover: hover) {
-  .button_underlined:hover {
+  .button_underlined:hover:not(:focus) {
     outline-color: transparent;
     border-color: var(--active-button-background-color);
     background-color: transparent;
@@ -132,7 +132,7 @@
   }
 }
 
-.button_underlined:active {
+.button_underlined:active:not(:focus) {
   border-color: var(--dark-text-color);
   color: var(--dark-text-color);
 }

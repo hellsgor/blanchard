@@ -55,20 +55,20 @@
 }
 
 @media (hover: hover) {
-  .radio:hover span::before {
+  .radio:hover:not(:focus) span::before {
     border-color: var(--hover-dark-color);
   }
 }
 
-.radio:active span {
+.radio:active:not(:focus) span {
   color: var(--active-dark-color);
 }
 
-.radio:active span::before {
+.radio:active:not(:focus) span::before {
   border-color: var(--active-dark-color);
 }
 
-.radio:active span::after {
+.radio:active:not(:focus) span::after {
   background-color: var(--active-dark-color);
 }
 

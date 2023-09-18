@@ -11,8 +11,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  justify-content: space-between;
-  column-gap: var(--offset);
+  justify-content: start;
+  gap: var(--offset);
 }
 
 @media (max-width: 1440px) {

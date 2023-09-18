@@ -23,12 +23,12 @@
 }
 
 @media (hover: hover) {
-  .social-link:hover svg path {
+  .social-link:hover:not(:focus) svg path {
     fill: var(--light-background-color);
   }
 }
 
-.social-link:active svg path {
+.social-link:active:not(:focus) svg path {
   fill: var(--acent-color);
 }
 
