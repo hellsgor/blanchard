@@ -29,12 +29,12 @@
 }
 
 @media (hover: hover) {
-  .messenger:hover {
+  .messenger:hover:not(:focus) {
     opacity: .5;
   }
 }
 
-.messenger:active {
+.messenger:active:not(:focus) {
   opacity: 1;
   outline-color: var(--acent-color);
 }

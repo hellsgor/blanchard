@@ -13,7 +13,7 @@
 }
 
 @media (hover: hover) {
-  .control:hover {
+  .control:hover:not(:focus) {
     background-color: var(--control-bg-hover-active-color);
   }
 }

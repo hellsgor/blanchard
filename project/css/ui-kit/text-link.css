@@ -10,14 +10,14 @@
 }
 
 @media (hover: hover) {
-  .text-link_for-dark-bg:hover {
+  .text-link_for-dark-bg:hover:not(:focus) {
     outline-color: transparent;
     background-color: transparent;
     color: var(--hover-dark-color);
   }
 }
 
-.text-link_for-dark-bg:active {
+.text-link_for-dark-bg:active:not(:focus) {
   outline-color: transparent;
   background-color: transparent;
   color: var(--active-dark-color);
