@@ -46,10 +46,6 @@
   column-gap: 20px;
 }
 
-.contacts__form-button_small {
-  display: none;
-}
-
 @media (max-width: 1440px) {
   .contacts__container {
     column-gap: 30px;
@@ -122,14 +118,13 @@
     padding-bottom: 3px;
   }
 
-  .contacts__form-button_big {
-    display: none;
-  }
-
-  .contacts__form-button_small {
-    display: block;
+  .contacts__form-button {
     padding-right: 33px;
     padding-left: 33px;
+  }
+
+  .contacts__form-button-long-text {
+    display: none;
   }
 
   .contacts__messengers-title {
