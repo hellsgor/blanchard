@@ -1,6 +1,6 @@
 .gallery {
   padding-bottom: 80px;
-  background: url("assetsground-1920.jpg") no-repeat center;
+  background: url("../../assets/images/gallery-background/gallery-background-1920.jpg") no-repeat center;
   background-size: cover;
   scroll-margin-top: var(--scroll-margin-top-for-header-fixed);
 }
@@ -52,7 +52,7 @@
 
 @media (max-width: 1024px) {
   .gallery {
-    background-image: url("assetsground-1024.jpg");
+    background-image: url("../../assets/images/gallery-background/gallery-background-1024.jpg");
   }
 
   .gallery__title {
@@ -66,14 +66,14 @@
   }
 
   .gallery {
-    background-image: url("assetsground-768.jpg");
+    background-image: url("../../assets/images/gallery-background/gallery-background-768.jpg");
   }
 }
 
 @media (max-width: 576px) {
   .gallery {
     padding-bottom: 50px;
-    background-image: url("assetsground-320.jpg");
+    background-image: url("../../assets/images/gallery-background/gallery-background-320.jpg");
   }
 
   .gallery__title {

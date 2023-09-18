@@ -1,5 +1,5 @@
 .hero {
-  background: url("assets.jpg") no-repeat center;
+  background: url("../../assets/images/hero/hero-1920-1x.jpg") no-repeat center;
   background-size: cover;
   padding-top: 246px;
   padding-bottom: 146px;
@@ -32,7 +32,7 @@
 
 @media (max-width: 1024px) {
   .hero {
-    background-image: url("assets.jpg");
+    background-image: url("../../assets/images/hero/hero-1024-1x.jpg");
     padding-top: 248px;
     padding-bottom: 101px;
   }
@@ -52,7 +52,7 @@
 
 @media (max-width: 768px) {
   .hero {
-    background-image: url("assetsjpg");
+    background-image: url("../../assets/images/hero/hero-768-1x.jpg");
     padding-top: 80px;
     padding-bottom: 86px;
   }
@@ -69,7 +69,7 @@
 
 @media (max-width: 576px) {
   .hero {
-    background-image: url("assetsjpg");
+    background-image: url("../../assets/images/hero/hero-320-1x.jpg");
     padding-top: 80px;
     padding-bottom: 50px;
   }

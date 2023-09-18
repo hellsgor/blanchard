@@ -1,25 +1,25 @@
-@import url(fonts.css);
-@import url(typography.css);
-@import url(variables.css);
+@import url(./fonts.css);
+@import url(./typography.css);
+@import url(./variables.css);
 
-@import url(text-link.css);
-@import url(button.css);
-@import url(radio.css);
-@import url(messenger.css);
-@import url(control.css);
-@import url(social-link.css);
+@import url(./ui-kit/text-link.css);
+@import url(./ui-kit/button.css);
+@import url(./ui-kit/radio.css);
+@import url(./ui-kit/messenger.css);
+@import url(./ui-kit/control.css);
+@import url(./ui-kit/social-link.css);
 
-@import url(header.css);
-@import url(hero.css);
-@import url(about.css);
-@import url(gallery.css);
-@import url(catalog.css);
-@import url(painter-card.css);
-@import url(events.css);
-@import url(event-card.css);
-@import url(projects.css);
-@import url(contacts.css);
-@import url(footer.css);
+@import url(./components/header.css);
+@import url(./components/hero.css);
+@import url(./components/about.css);
+@import url(./components/gallery.css);
+@import url(./components/catalog.css);
+@import url(./components/painter-card.css);
+@import url(./components/events.css);
+@import url(./components/event-card.css);
+@import url(./components/projects.css);
+@import url(./components/contacts.css);
+@import url(./components/footer.css);
 
 html {
   scroll-behavior: smooth;
